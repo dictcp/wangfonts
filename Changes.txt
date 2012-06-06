@@ -1,0 +1,80 @@
+2004-07-24   Edward G.J. Lee <edt1023@cle.linux.org.tw>
+
+  * *.ttf, Type1\*, README.b5
+  - Version 1.3 released.
+  - Add mort table.
+  - Rebuild Type1 fonts.
+  - Build FOP font metrics.
+  - Rename license.txt to COPYING.
+  - Modify the README.b5.
+
+2004-07-20   Edward G.J. Lee <edt1023@cle.linux.org.tw>
+
+  * w*.ttf, Type1\*
+  - Version 1.3 prereleased. All Dr. Wang's TTF use the same version
+    number now.
+  - Add cvt/fpgm table let TTF can embed in PDF files. Thanks to
+    cdchen <cdchen.bbs@bbs.sayya.org> to report this problem.
+  - Move license information from naming table name ID 1 field to
+    name ID 13.
+  - Add modified tags in naming table name ID 10.
+  - Change the license information in naming table name ID 5.
+  - Retain Apple Unicode camp table.
+  - Retain us-ascii CodePageRange.
+  - Add a new FOPOO.o/LaTeX sample for those fonts.
+  - Thanks to those people to test the fonts,
+    william <william.bbs@bbs.cis.nctu.edu.tw>
+    ywwang <ywwang.bbs@bbs.sayya.org>
+    yhyang <yhyang.bbs@bbs.sayya.org>
+    YiDa Chiang <ccpz.bbs@bbs.sayya.org>
+    yuanfarn <yuanfarn.bbs@bbs.sayya.org>
+  - We need the original GDEF table to display normally in the
+    Windows XP/MS Word. But this will conflict with cvt/pfgm table. :(
+
+2004-04-20  Edward G.J. Lee <edt1023@cle.linux.org.tw>
+
+  * Type1/wt024-t1.tar.gz, README.b5
+  - Fixed wrong LaTeX-CJK font name.
+  - Added LaTeX-CJK font name list in README.b5.
+
+2004-03-29   Edward G.J. Lee <edt1023@cle.linux.org.tw>
+
+  * wts*.ttf, wtcc*.ttf, wtg-*.ttf
+  - Fixed some typo in name table.
+
+2004-03-26   Edward G.J. Lee <edt1023@cle.linux.org.tw>
+
+  * Modified Traditional Big-5 Chinese fonts(wt0*.ttf, wtc*.ttf, wth*.ttf
+    and wtg*.ttf).
+  - Removed PID=0 cmap table.
+  - Modified OS/2 table
+    sFamilyClass = 0x0105 (Old Style Serifs dutch modern).
+    Panose subtable:
+      Family     = 02 Text & Display.
+      Serif Type = 02 Cove.
+      Weight     = 03 Light.
+  - Removed langID=0x400 name table.
+  - Removed GDEF/GSUB tables. Maybe will add mort table instead.
+  - Modified CodePageRange, those fonts didn't have GB2312
+    characters.
+
+  * wp*.ttf
+  - Modified OS/2 table
+    sFamilyClass = 0x0903 (Ornamentals decorative)
+    Panose subtable:
+      Family     = 02 Text & Display.
+      Serif Type = 0b Normal Sans
+      Weight     = 07 Demi
+  - Removed GDEF tables.
+  - Added full Copyleft announcement.
+
+  * wts*.ttf
+  - Modified OS/2 table
+    sFamilyClass = 0x0105 (Old Style Serifs dutch modern)
+    Serif Type   = 02 Cove.
+    Weight       = 03 Light.
+  - Removed GDEF tables.
+  - Added full Copyleft announcement
+
+  * *.ttf
+  - Revisional mark: GJL(040326).

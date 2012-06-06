@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="big5"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<fo:layout-master-set>
+<fo:simple-page-master margin-right="1.5cm" margin-left="1.5cm" margin-bottom="1cm" margin-top="1cm" page-width="21cm" page-height="29.7cm">
+<fo:region-body margin-bottom="0.5cm" margin-top="0.5cm"/>
+<fo:region-before extent="0.5cm"/>
+<fo:region-after extent="0.5cm"/>
+</fo:simple-page-master>
+</fo:layout-master-set>
+<fo:page-sequence>
+  <fo:static-content flow-name="xsl-region-after">
+     <fo:block text-align-last="center" font-family="hwfsm" font-size="10pt">
+       第　<fo:page-number/>　頁
+     </fo:block>
+  </fo:static-content>
+<fo:flow flow-name="xsl-region-body" text-align="justify">
+
+<fo:block font-family="hwmh" font-size="26pt" text-align="center" space-after="10pt">
+  王漢宗自由字型 FOP 範例
+</fo:block>
+
+<fo:block font-family="hwml" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗細明體（wt001.ttf）。
+</fo:block>
+
+<fo:block font-family="hwmm" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗中明體（wt002.ttf）。
+</fo:block>
+
+<fo:block font-family="hwmb" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗粗明體（wt003.ttf）。
+</fo:block>
+
+<fo:block font-family="hwmh" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗特明體（wt004.ttf）。
+</fo:block>
+
+<fo:block font-family="hwmbk" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗超明體（wt005.ttf）。
+</fo:block>
+
+<fo:block font-family="hwyl" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗細圓體（wt006.ttf）。
+</fo:block>
+
+<fo:block font-family="hwyh" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗特圓體（wt009.ttf）。
+</fo:block>
+
+<fo:block font-family="hwhl" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗細黑體（wt011.ttf）。
+</fo:block>
+
+<fo:block font-family="hwhh" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗特黑體（wt014.ttf）。
+</fo:block>
+
+<fo:block font-family="hwlsm" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗隸書體（wt021.ttf）。
+</fo:block>
+
+<fo:block font-family="hwfsm" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗中仿宋（wt024.ttf）。
+</fo:block>
+
+<fo:block font-family="hwkdy" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗疊圓體（wt028.ttf）。
+</fo:block>
+
+<fo:block font-family="hwkt" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗勘流亭（wt034.ttf）。
+</fo:block>
+
+<fo:block font-family="hwzy" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗綜藝體（wt040.ttf）。
+</fo:block>
+
+<fo:block font-family="hwyk" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗顏楷體（wt064.ttf）。
+</fo:block>
+
+<fo:block font-family="hwssm" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗中行書（wt071.ttf）。
+</fo:block>
+
+<fo:block font-family="hwcc02" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗酷儷海報（wtcc02.ttf）。
+</fo:block>
+
+<fo:block font-family="hwcc15" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗酷正海報（wtcc15.ttf）。
+</fo:block>
+
+<fo:block font-family="hwhc" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗鋼筆行楷（wthc06.ttf）。
+</fo:block>
+
+<fo:block font-family="hwgsc1" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗超黑俏皮動物（wtg-06cut1.ttf）。
+</fo:block>
+
+<fo:block font-family="hwmmci" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗中明體注音(wp010-05.ttf)。
+</fo:block>
+
+<fo:block font-family="hwmmci1" font-size="26pt" text-align="justify" space-after="1pt">
+  中明體破音字123(wp[123]10-05.ttf)。
+</fo:block>
+
+<fo:block font-family="hwkmci" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗中楷體注音(wp010-08.ttf)。
+</fo:block>
+
+<fo:block font-family="hwkmci1" font-size="26pt" text-align="justify" space-after="1pt">
+  中楷體破音字123(wp010-08.ttf)。
+</fo:block>
+
+<fo:block font-family="wcl01" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗波浪體(WCL-01.ttf)。
+</fo:block>
+
+<fo:block font-family="wcl02" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗特明體(WCL-02.ttf)。
+</fo:block>
+
+<fo:block font-family="wcl03" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗波卡體空陰(WCL-03.ttf)。
+</fo:block>
+
+<fo:block font-family="wcl04" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗綜藝體雙空陰(WCL-04.ttf)。
+</fo:block>
+
+<fo:block font-family="wcl05" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗標楷體空心(WCL-05.ttf)。
+</fo:block>
+
+<fo:block font-family="wcl06" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗仿宋標準(WCL-06.ttf)。
+</fo:block>
+
+<fo:block font-family="wcl07" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗粗鋼體標準(WCL-07.ttf)。
+</fo:block>
+
+<fo:block font-family="wcl08" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗粗黑體實陰(WCL-08.ttf)。
+</fo:block>
+
+<fo:block font-family="wcl09" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗粗圓體雙空(WCL-09.ttf)。
+</fo:block>
+
+<fo:block font-family="wcl10" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗海報體半天水(WCL-10.ttf)。
+</fo:block>
+
+<fo:block font-family="wts11" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗粗楷體簡體(wts11.ttf)。
+</fo:block>
+
+<fo:block font-family="wts43" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗中魏碑簡體(wts43.ttf)。
+</fo:block>
+
+<fo:block font-family="wts47" font-size="26pt" text-align="justify" space-after="1pt">
+  王漢宗中仿宋簡體(wts47.ttf)。
+</fo:block>
+
+<fo:block font-family="wts55" font-size="26pt" text-align="justify" space-after="20pt">
+  王漢宗細新宋簡體(wts55.ttf)。
+</fo:block>
+
+
+<fo:block font-family="hwmm" font-size="10pt">CLE Project：
+  <fo:inline font-family="Courier" font-size="10pt">
+    <fo:basic-link color="blue" external-destination="http://cle.linux.org.tw">
+      http://cle.linux.org.tw
+    </fo:basic-link>
+  </fo:inline>
+</fo:block>
+<fo:block font-family="hwmm" font-size="10pt">FontForge Project：
+  <fo:inline font-family="Courier" font-size="10pt">
+    <fo:basic-link color="blue" external-destination="http://fontforge.sf.net">
+      http://fontforge.sf.net
+    </fo:basic-link>
+  </fo:inline>
+</fo:block>
+<fo:block font-family="hwmm" font-size="10pt">TTX(fontftools) Project：
+  <fo:inline font-family="Courier" font-size="10pt">
+    <fo:basic-link color="blue" external-destination="http://fonttools.sf.net">
+      http://fonttools.sf.net
+    </fo:basic-link>
+  </fo:inline>
+</fo:block>
+<fo:block font-family="hwmm" font-size="10pt">FOP Project：
+  <fo:inline font-family="Courier" font-size="10pt">
+    <fo:basic-link color="blue" external-destination="http:/xml.apache.org/fop">
+      http:/xml.apache.org/fop
+    </fo:basic-link>
+  </fo:inline>
+</fo:block>
+<fo:block font-family="hwmm" font-size="10pt">果正札記（Edward G.J. Lee's Note）：
+  <fo:inline font-family="Courier" font-size="10pt">
+    <fo:basic-link color="blue" external-destination="http://edt1023.sayya.org">
+      http://edt1023.sayya.org
+    </fo:basic-link>
+  </fo:inline>
+</fo:block>
+<fo:block font-family="hwmm" font-size="10pt">字型維護（font maintainer）：
+</fo:block>
+<fo:block font-family="Times" font-size="10pt">Seventeen
+<fo:inline font-family="Courier" font-size="10pt">
+  <fo:basic-link color="blue" external-destination="mailto:edt1023@info.sayya.org">
+     &lt;seventeen@cle.linux.org.tw&gt;
+  </fo:basic-link>
+</fo:inline>
+</fo:block>
+<fo:block font-family="Times" font-size="10pt">Edward G.J. Lee
+<fo:inline font-family="Courier" font-size="10pt">
+  <fo:basic-link color="blue" external-destination="mailto:edt1023@info.sayya.org">
+    &lt;edt1023@cle.linux.org.tw&gt;
+  </fo:basic-link>
+</fo:inline>
+</fo:block>
+<fo:block font-family="hwmm" font-size="10pt">下載站台（download）：
+</fo:block>
+<fo:block font-family="hwmm" font-size="10pt">CLE ftp：
+<fo:inline font-family="Courier" font-size="10pt">
+  <fo:basic-link color="blue" external-destination="ftp://cle.linux.org.tw/pub2/fonts/wangfonts">
+    ftp://cle.linux.org.tw/pub2/fonts/wangfonts
+  </fo:basic-link>
+</fo:inline>
+</fo:block>
+<fo:block font-family="hwmm" font-size="10pt">自由軟體應用諮詢中心：
+<fo:inline font-family="Courier" font-size="10pt">
+  <fo:basic-link color="blue" external-destination="http://www.ossacc.org/Download/tools/font/view">
+    http://www.ossacc.org/Download/tools/font/view
+  </fo:basic-link>
+</fo:inline>
+</fo:block>
+<fo:block font-family="hwmm" font-size="10pt">自由軟體技術交流網：
+<fo:inline font-family="Courier" font-size="10pt">
+  <fo:basic-link color="blue" external-destination="ftp://ftp.tnc.edu.tw/pub/freefont/wangnew/">
+    ftp://ftp.tnc.edu.tw/pub/freefont/wangfonts/
+  </fo:basic-link>
+</fo:inline>
+</fo:block>
+
+</fo:flow>
+</fo:page-sequence>
+</fo:root>
