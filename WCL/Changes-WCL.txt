@@ -1,0 +1,60 @@
+2004-07-24   Edward G.J. Lee <edt1023@cle.linux.org.tw>
+
+  * WCL*.ttf, Type1\*
+  - Version 1.3 released.
+  - Add mort table.
+  - Rebuild Type1 fonts.
+  - Build FOP font metrics.
+
+2004-07-20   Edward G.J. Lee <edt1023@cle.linux.org.tw>
+
+  * WCL*.ttf, Type1\*
+  - Version 1.3 prereleased. All Dr. Wang's TTF use the same version
+    number now. 
+  - Add cvt/fpgm table let TTF can embed in PDF files. Thanks to
+    cdchen <cdchen.bbs@bbs.sayya.org> to report this problem.
+  - Move license information from naming table name ID 1 field to
+    name ID 13.
+  - Add modified tags in naming table name ID 10.
+  - Change the license information in naming table name ID 5.
+  - Retain Apple Unicode camp table.
+  - Retain us-ascii CodePageRange.
+  - Add a new FOPOO.o/LaTeX sample for those fonts.
+  - Thanks to those people to test the fonts,
+    william <william.bbs@bbs.cis.nctu.edu.tw>
+    ywwang <ywwang.bbs@bbs.sayya.org>
+    yhyang <yhyang.bbs@bbs.sayya.org>
+    YiDa Chiang <ccpz.bbs@bbs.sayya.org>
+    yuanfarn <yuanfarn.bbs@bbs.sayya.oef>
+  - We need the original GDEF table to display normally in the
+    Windows XP/MS Word. But this will conflict with cvt/pfgm table. :(
+
+2004-04-03  Edward G.J. Lee <edt1023@cle.linux.org.tw>
+
+  * WCL-*.ttf
+  - Fixed the typo in GNU GPL annoucement of name table.
+  - Revisional mark: GJL(040403).
+  - Rebuilded Type1 fonts.
+
+2004-03-30  Edward G.J. Lee <edt1023@cle.linux.org.tw>
+
+  * WCL-*.ttf
+  - Based on FireFly's modified WCL TTF,
+    http://firefly.idv.tw/setfont-xft/freefonts/zh-tw/
+  - Removed PID=0 cmap table.
+  - Modified OS/2 table
+    sFamilyClass = 0x0105 (Old Style Serifs dutch modern)
+    Panose subtable:
+      Family     = 02 Text & Display.
+      Serif Type = 02 Cove.
+      Weight     = 05 Book.
+      Proportion = 00
+      Contrast   = 00
+      Stroke Variation = 00
+      Arm Style  = 00
+      Letterform = 00
+      Midline    = 00
+      X-Height   = 00
+  - CodePageRange = 00100000 00000000
+  - Removed VORG table.
+  - Revisional mark: GJL(040330).
