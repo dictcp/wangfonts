@@ -1,0 +1,1 @@
+![http://wangfonts.googlecode.com/git/samples/sample-1.png](http://wangfonts.googlecode.com/git/samples/sample-1.png)
